@@ -1,13 +1,14 @@
 /* General Style */
 
-html{
+/*html{
   text-align: center;
-}
+}*/
 
-a, h1, h2, h3, h4, p{
-  font-family: "Helvetica", sans-serif;
+a, h1, h2, h3, h4, h5, p{
+  font-family: Helvetica, sans-serif;
   color: seashell;
   opacity: 0.9;
+  text-align: center;
   /*font-weight: bold;*/
 }
 
@@ -44,6 +45,21 @@ h4{
   margin: 35px 0px;
   font-weight: bold;
   }
+
+.footer h5{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.footer h2{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.copyright h5{
+ font-size: 20px;
+ font-weight: bold;
+}
+
 
 /* header style */
 
@@ -90,7 +106,7 @@ nav a{
   align-items: center;
   width: 100%;
   height: auto;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   left: 0px;
   right: 0px;
   position: absolute;
@@ -214,4 +230,23 @@ img.bedford-bizarre{
 .icon-content .address-icon{
   background-color: black;
   margin: 15px 20px;
+  }
+
+/* footer content style */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: 200px;
+  margin-top: 0px;
+  }
+
+.copyright{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: 30px;
+  margin-left: 20px;
   }
