@@ -33,6 +33,10 @@ h4{
   margin: 8px;
 }
 
+.middle-box span h2, h3{
+  margin: 12px;
+}
+
 /* header style */
 
 header{
@@ -110,6 +114,7 @@ nav a{
     background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
     width: 1200px;
     margin-top: 75px;
+    margin-bottom: 40px;
     height: 700px;
 }
 
@@ -127,14 +132,14 @@ nav a{
 
 .middle-box{
   display: flex;
-  text-align-last: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 1000px;
   height: auto;
-  background-color: aquamarine;
-}
+  /*background-color: aquamarine;*/
+
+  }
 
 .icon-content{
   display: flex;
